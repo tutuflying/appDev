@@ -10,6 +10,8 @@
 		1A30E2C218CF063C0062ADB8 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A30E2C118CF063C0062ADB8 /* ScaryBugData.m */; };
 		1A30E2C518CF080D0062ADB8 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A30E2C418CF080D0062ADB8 /* ScaryBugDoc.m */; };
 		1A30E2C718CF0D710062ADB8 /* bug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A30E2C618CF0D710062ADB8 /* bug.jpg */; };
+		1AE8287918CF3EF5009B2AC4 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8287818CF3EF5009B2AC4 /* RateView.m */; };
+		1AE8287D18CF4013009B2AC4 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8287C18CF4013009B2AC4 /* UIImageExtras.m */; };
 		64F6804BD1C9B7DAA9080027 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F68C1135EF1253E10E5F82 /* Images.xcassets */; };
 		64F680DC06D1F61566B7B2AE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F684942307666FA0E4BBA3 /* MasterViewController.m */; };
 		64F681534EEBEB571DFE2A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F68C59808CBE4A9F885B72 /* UIKit.framework */; };
@@ -44,6 +46,10 @@
 		1A30E2C318CF080D0062ADB8 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
 		1A30E2C418CF080D0062ADB8 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
 		1A30E2C618CF0D710062ADB8 /* bug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bug.jpg; sourceTree = "<group>"; };
+		1AE8287718CF3EF5009B2AC4 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		1AE8287818CF3EF5009B2AC4 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		1AE8287B18CF4013009B2AC4 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		1AE8287C18CF4013009B2AC4 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
 		64F680005BB74953740C842C /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
 		64F68094C9021A6E0CD965FC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ScaryBugs/DetailViewController.h; sourceTree = "<group>"; };
 		64F680F6CCDAC500656056D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScaryBugs/AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +126,31 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		1AE8287618CF3E0F009B2AC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8287718CF3EF5009B2AC4 /* RateView.h */,
+				1AE8287818CF3EF5009B2AC4 /* RateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1AE8287A18CF3FF4009B2AC4 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8287B18CF4013009B2AC4 /* UIImageExtras.h */,
+				1AE8287C18CF4013009B2AC4 /* UIImageExtras.m */,
+			);
+			name = Helps;
+			sourceTree = "<group>";
+		};
+		1AE8287E18CF4036009B2AC4 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
 		64F680A761365A2FBFCFB889 /* ScaryBugsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +172,9 @@
 		64F685AE26966BD356E80647 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				1AE8287E18CF4036009B2AC4 /* Art */,
+				1AE8287A18CF3FF4009B2AC4 /* Helps */,
+				1AE8287618CF3E0F009B2AC4 /* Views */,
 				1A30E2BF18CF04D60062ADB8 /* Model */,
 				1A30E2BE18CF04960062ADB8 /* GUI */,
 				64F68C592E47C0F9A64FEE63 /* Supporting Files */,
@@ -290,7 +324,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE8287918CF3EF5009B2AC4 /* RateView.m in Sources */,
 				1A30E2C218CF063C0062ADB8 /* ScaryBugData.m in Sources */,
+				1AE8287D18CF4013009B2AC4 /* UIImageExtras.m in Sources */,
 				64F68FD60138187B521919F6 /* main.m in Sources */,
 				64F68D23F380D6CA5C9BAE51 /* AppDelegate.m in Sources */,
 				64F680DC06D1F61566B7B2AE /* MasterViewController.m in Sources */,
