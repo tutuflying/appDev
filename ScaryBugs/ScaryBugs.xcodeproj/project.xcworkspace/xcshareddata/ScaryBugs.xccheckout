@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D2AD081F-B0F0-4DD9-A321-F8E113CF9695</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScaryBugs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03C49DBA-FF4A-4BF9-93E3-8221EB24A1A8</key>
+		<string>ssh://github.com/tutuflying/appDev.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ScaryBugs/ScaryBugs.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03C49DBA-FF4A-4BF9-93E3-8221EB24A1A8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tutuflying/appDev.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03C49DBA-FF4A-4BF9-93E3-8221EB24A1A8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03C49DBA-FF4A-4BF9-93E3-8221EB24A1A8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appDev</string>
+		</dict>
+	</array>
+</dict>
+</plist>
