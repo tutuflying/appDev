@@ -7,14 +7,17 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForTesting = "YES">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64F6891EF1121B948AC14007"
-               BuildableName = "ScaryBugsTests.xctest"
-               BlueprintName = "ScaryBugsTests"
-               ReferencedContainer = "container:ScaryBugs.xcodeproj">
+               BlueprintIdentifier = "1ACFC54618D2E16100F4E179"
+               BuildableName = "smart.app"
+               BlueprintName = "smart"
+               ReferencedContainer = "container:smart.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64F6891EF1121B948AC14007"
-               BuildableName = "ScaryBugsTests.xctest"
-               BlueprintName = "ScaryBugsTests"
-               ReferencedContainer = "container:ScaryBugs.xcodeproj">
+               BlueprintIdentifier = "1ACFC56A18D2E16100F4E179"
+               BuildableName = "smartTests.xctest"
+               BlueprintName = "smartTests"
+               ReferencedContainer = "container:smart.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1ACFC54618D2E16100F4E179"
+            BuildableName = "smart.app"
+            BlueprintName = "smart"
+            ReferencedContainer = "container:smart.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -46,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1ACFC54618D2E16100F4E179"
+            BuildableName = "smart.app"
+            BlueprintName = "smart"
+            ReferencedContainer = "container:smart.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -55,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1ACFC54618D2E16100F4E179"
+            BuildableName = "smart.app"
+            BlueprintName = "smart"
+            ReferencedContainer = "container:smart.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

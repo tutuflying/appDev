@@ -7,14 +7,17 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForTesting = "YES">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64F6891EF1121B948AC14007"
-               BuildableName = "ScaryBugsTests.xctest"
-               BlueprintName = "ScaryBugsTests"
-               ReferencedContainer = "container:ScaryBugs.xcodeproj">
+               BlueprintIdentifier = "1A311C2818D2D8910017031C"
+               BuildableName = "shape"
+               BlueprintName = "shape"
+               ReferencedContainer = "container:shape.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -25,17 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64F6891EF1121B948AC14007"
-               BuildableName = "ScaryBugsTests.xctest"
-               BlueprintName = "ScaryBugsTests"
-               ReferencedContainer = "container:ScaryBugs.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1A311C2818D2D8910017031C"
+            BuildableName = "shape"
+            BlueprintName = "shape"
+            ReferencedContainer = "container:shape.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -46,6 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1A311C2818D2D8910017031C"
+            BuildableName = "shape"
+            BlueprintName = "shape"
+            ReferencedContainer = "container:shape.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -55,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1A311C2818D2D8910017031C"
+            BuildableName = "shape"
+            BlueprintName = "shape"
+            ReferencedContainer = "container:shape.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
