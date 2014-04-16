@@ -9,9 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *sliderLabel;
 @property (weak, nonatomic) IBOutlet UITextField *number;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 - (IBAction)editFinish:(id)sender;
 - (IBAction)backgroundTab:(id)sender;
+- (IBAction)sliderChange:(UISlider *)sender;
+
+//todo page 80
 
 @end

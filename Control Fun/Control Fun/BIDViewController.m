@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _sliderLabel.text = @"50";
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +36,8 @@
     [self.number resignFirstResponder];
 }
 
+- (IBAction)sliderChange:(UISlider *)sender {
+    long progress = lroundf(sender.value * 100);
+    _sliderLabel.text = [NSString stringWithFormat:@"%ld", progress];
+}
 @end
