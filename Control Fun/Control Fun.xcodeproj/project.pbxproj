@@ -21,7 +21,6 @@
 		1AA47C2B18FE7E1B00DB3ACA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA47C0D18FE7E1B00DB3ACA /* UIKit.framework */; };
 		1AA47C3318FE7E1B00DB3ACA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA47C3118FE7E1B00DB3ACA /* InfoPlist.strings */; };
 		1AA47C3518FE7E1B00DB3ACA /* Control_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA47C3418FE7E1B00DB3ACA /* Control_FunTests.m */; };
-		1AA47C3F18FE7F7600DB3ACA /* [@]VU00KBPN~T}EP{Q[3YGX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AA47C3E18FE7F7600DB3ACA /* [@]VU00KBPN~T}EP{Q[3YGX.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		1AA47C3018FE7E1B00DB3ACA /* Control FunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control FunTests-Info.plist"; sourceTree = "<group>"; };
 		1AA47C3218FE7E1B00DB3ACA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AA47C3418FE7E1B00DB3ACA /* Control_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Control_FunTests.m; sourceTree = "<group>"; };
-		1AA47C3E18FE7F7600DB3ACA /* [@]VU00KBPN~T}EP{Q[3YGX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "[@]VU00KBPN~T}EP{Q[3YGX.jpg"; path = "../../../../Desktop/[@]VU00KBPN~T}EP{Q[3YGX.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 		1AA47C0F18FE7E1B00DB3ACA /* Control Fun */ = {
 			isa = PBXGroup;
 			children = (
-				1AA47C3E18FE7F7600DB3ACA /* [@]VU00KBPN~T}EP{Q[3YGX.jpg */,
 				1AA47C1818FE7E1B00DB3ACA /* BIDAppDelegate.h */,
 				1AA47C1918FE7E1B00DB3ACA /* BIDAppDelegate.m */,
 				1AA47C1B18FE7E1B00DB3ACA /* Main.storyboard */,
@@ -234,7 +231,6 @@
 			files = (
 				1AA47C2218FE7E1B00DB3ACA /* Images.xcassets in Resources */,
 				1AA47C1418FE7E1B00DB3ACA /* InfoPlist.strings in Resources */,
-				1AA47C3F18FE7F7600DB3ACA /* [@]VU00KBPN~T}EP{Q[3YGX.jpg in Resources */,
 				1AA47C1D18FE7E1B00DB3ACA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +461,7 @@
 				1AA47C3A18FE7E1B00DB3ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA47C3B18FE7E1B00DB3ACA /* Build configuration list for PBXNativeTarget "Control FunTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +470,7 @@
 				1AA47C3D18FE7E1B00DB3ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
