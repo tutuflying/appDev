@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *number;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 - (IBAction)editFinish:(id)sender;
+- (IBAction)backgroundTab:(id)sender;
 
 @end

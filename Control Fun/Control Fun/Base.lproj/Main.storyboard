@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="2iK-mt-RZp"/>
                         <viewControllerLayoutGuide type="bottom" id="Oio-4q-ZnK"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -53,6 +53,9 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <action selector="backgroundTab:" destination="vXZ-lx-hvc" eventType="touchDown" id="j8v-Of-Jdn"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="name" destination="n3M-nz-vo8" id="e32-HV-IOv"/>

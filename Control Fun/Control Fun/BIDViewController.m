@@ -30,4 +30,9 @@
     [sender resignFirstResponder];
 }
 
+- (IBAction)backgroundTab:(id)sender {
+    [self.name resignFirstResponder];
+    [self.number resignFirstResponder];
+}
+
 @end
