@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class BIDBlueViewController;
+@class BIDYellowViewController;
+
 @interface BIDSwitchViewController : UIViewController
+
+@property(strong,nonatomic) BIDBlueViewController *blueViewController;
+@property(strong,nonatomic) BIDYellowViewController *yellowViewController;
+
+- (IBAction)switchViews:(id)sender;
 
 @end
