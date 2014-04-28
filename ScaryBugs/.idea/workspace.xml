@@ -2,11 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8709816a-224e-4579-b15d-d3dce9ae6643" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScaryBugs.xcodeproj/project.xcworkspace/xcuserdata/yijunzhao.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ScaryBugs.xcodeproj/project.xcworkspace/xcuserdata/yijunzhao.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScaryBugs/Base.lproj/Main_iPhone.storyboard" afterPath="$PROJECT_DIR$/ScaryBugs/Base.lproj/Main_iPhone.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScaryBugs.xcodeproj/xcuserdata/yijunzhao.xcuserdatad/xcschemes/ScaryBugsTests.xcscheme" afterPath="$PROJECT_DIR$/ScaryBugs.xcodeproj/xcuserdata/yijunzhao.xcuserdatad/xcschemes/ScaryBugsTests.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch.xcodeproj/project.xcworkspace/xcuserdata/yijunzhao.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story.xcodeproj/project.xcworkspace/xcuserdata/yijunzhao.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/BIDAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDBlueViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Pickers/BIDSwitchViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDSwitchViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDSwitchViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/BIDTestViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/BIDTestViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDYellowViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/SwitchTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/storyTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Pickers/Storyboard.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/Switch-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/Switch-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch.xcodeproj/xcuserdata/yijunzhao.xcuserdatad/xcschemes/Switch.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/SwitchTests/SwitchTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/SwitchTests/SwitchTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/story-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story/story-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story.xcodeproj/xcuserdata/yijunzhao.xcuserdatad/xcschemes/story.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/storyTests/storyTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/storyTests/storyTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Switch/Switch.xcodeproj/xcuserdata/yijunzhao.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../story/story.xcodeproj/xcuserdata/yijunzhao.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDCustomPickerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDCustomPickerViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDatePickerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDatePickerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDatePickerViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDependentComponentPickerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDependentComponentPickerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDependentComponentPickerViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDoubleComponentPickerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDDoubleComponentPickerViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDSingleComponetPickerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/BIDSingleComponetPickerViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/Pickers/BIDAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Pickers/TabBarController.xib" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pickers/BIDCustomPickerViewController.m" afterPath="$PROJECT_DIR$/../Pickers/BIDSwitchViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pickers/BIDDoubleComponentPickerViewController.m" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDBlueViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pickers/BIDSingleComponetPickerViewController.m" afterPath="$PROJECT_DIR$/../Switch/Switch/BIDYellowViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pickers/Pickers/BIDAppDelegate.m" afterPath="$PROJECT_DIR$/../story/story/BIDAppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pickers/Pickers.xcodeproj/project.xcworkspace/xcuserdata/yijunzhao.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../Pickers/Pickers.xcodeproj/project.xcworkspace/xcuserdata/yijunzhao.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pickers/Pickers.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../Pickers/Pickers.xcodeproj/project.pbxproj" />
     </list>
     <ignored path="ScaryBugs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +79,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__3_5_inch__7.0" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
   <component name="FavoritesManager">
     <favorites_list name="ScaryBugs" />
   </component>
@@ -197,10 +253,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.ScaryBugs">
     <configuration default="false" name="ScaryBugs" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="ScaryBugs" PROJECT_NAME="ScaryBugs" TARGET_NAME="ScaryBugs" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="ScaryBugs" RUN_TARGET_NAME="ScaryBugs" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -222,8 +278,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.ScaryBugs" />
-      <item index="1" class="java.lang.String" itemvalue="XCTest/Kiwi.ScaryBugsTests" />
+      <item index="0" class="java.lang.String" itemvalue="XCTest/Kiwi.ScaryBugsTests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ScaryBugs" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -261,7 +317,6 @@
     <frame x="260" y="22" width="1400" height="970" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -275,6 +330,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -294,9 +350,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ScaryBugs/DetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155" />
       </provider>
     </entry>
   </component>
