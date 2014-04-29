@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A793259190FF46400DFE9AA /* KWTTDListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A793258190FF46400DFE9AA /* KWTTDListTableViewController.m */; };
 		1AFD5612190FA6D7000ECBB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFD5611190FA6D7000ECBB1 /* Foundation.framework */; };
 		1AFD5614190FA6D7000ECBB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFD5613190FA6D7000ECBB1 /* CoreGraphics.framework */; };
 		1AFD5616190FA6D7000ECBB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFD5615190FA6D7000ECBB1 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A793257190FF46400DFE9AA /* KWTTDListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTTDListTableViewController.h; sourceTree = "<group>"; };
+		1A793258190FF46400DFE9AA /* KWTTDListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTTDListTableViewController.m; sourceTree = "<group>"; };
 		1AFD560E190FA6D7000ECBB1 /* Smarty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smarty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFD5611190FA6D7000ECBB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AFD5613190FA6D7000ECBB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 				1AFD564C190FA7C4000ECBB1 /* KWTTDAddViewController.m */,
 				1AFD5623190FA6D7000ECBB1 /* KWTTDAppDelegate.m */,
 				1AFD5646190FA6F0000ECBB1 /* Main.storyboard */,
+				1A793257190FF46400DFE9AA /* KWTTDListTableViewController.h */,
+				1A793258190FF46400DFE9AA /* KWTTDListTableViewController.m */,
 				1AFD5628190FA6D7000ECBB1 /* Images.xcassets */,
 				1AFD5625190FA6D7000ECBB1 /* Smarty.xcdatamodeld */,
 				1AFD5648190FA797000ECBB1 /* Device.h */,
@@ -265,6 +270,7 @@
 			files = (
 				1AFD5620190FA6D7000ECBB1 /* main.m in Sources */,
 				1AFD5627190FA6D7000ECBB1 /* Smarty.xcdatamodeld in Sources */,
+				1A793259190FF46400DFE9AA /* KWTTDListTableViewController.m in Sources */,
 				1AFD564D190FA7C4000ECBB1 /* KWTTDAddViewController.m in Sources */,
 				1AFD5624190FA6D7000ECBB1 /* KWTTDAppDelegate.m in Sources */,
 				1AFD564A190FA797000ECBB1 /* Device.m in Sources */,
@@ -464,6 +470,7 @@
 				1AFD5642190FA6D7000ECBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AFD5643190FA6D7000ECBB1 /* Build configuration list for PBXNativeTarget "SmartyTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				1AFD5645190FA6D7000ECBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

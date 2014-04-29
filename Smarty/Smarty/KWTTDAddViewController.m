@@ -48,12 +48,19 @@
 */
 
 - (IBAction)addDevice:(id)sender {
+    
+    KWTTDAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    
     Device *device = (Device *)[NSEntityDescription
                                 insertNewObjectForEntityForName:@"Device"
-                                inManagedObjectContext:self.myDelegate.managedObjectContext];
+                                inManagedObjectContext:context];
+    
     [device setName:self.deviceName.text];
     
-    [self.myDelegate saveContext];
+    [appDelegate saveContext];
+    
+    [self.navigationController popToRootViewControllerAnimated:YES]; 
 }
 
 - (IBAction)textFieldHide:(id)sender {
