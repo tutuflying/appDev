@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1A3FB11B190E3C8700508E15 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FB11A190E3C8700508E15 /* Device.m */; };
-		1A3FB1AE190E431200508E15 /* KWTTDNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FB1AD190E431200508E15 /* KWTTDNavViewController.m */; };
 		1A3FB1B7190E4EE000508E15 /* KWTTDAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FB1B6190E4EE000508E15 /* KWTTDAddViewController.m */; };
 		1AFC5333190E2692009D3815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFC5332190E2692009D3815 /* Foundation.framework */; };
 		1AFC5335190E2692009D3815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFC5334190E2692009D3815 /* CoreGraphics.framework */; };
@@ -41,8 +40,6 @@
 /* Begin PBXFileReference section */
 		1A3FB119190E3C8700508E15 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		1A3FB11A190E3C8700508E15 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
-		1A3FB1AC190E431200508E15 /* KWTTDNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTTDNavViewController.h; sourceTree = "<group>"; };
-		1A3FB1AD190E431200508E15 /* KWTTDNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTTDNavViewController.m; sourceTree = "<group>"; };
 		1A3FB1B5190E4EE000508E15 /* KWTTDAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTTDAddViewController.h; sourceTree = "<group>"; };
 		1A3FB1B6190E4EE000508E15 /* KWTTDAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTTDAddViewController.m; sourceTree = "<group>"; };
 		1AFC532F190E2692009D3815 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,8 +131,6 @@
 				1AFC5361190E26C0009D3815 /* KWTTDListViewController.h */,
 				1AFC5362190E26C0009D3815 /* KWTTDListViewController.m */,
 				1AFC5364190E272A009D3815 /* Main.storyboard */,
-				1A3FB1AC190E431200508E15 /* KWTTDNavViewController.h */,
-				1A3FB1AD190E431200508E15 /* KWTTDNavViewController.m */,
 				1AFC536C190E3820009D3815 /* Device.xcdatamodeld */,
 				1A3FB119190E3C8700508E15 /* Device.h */,
 				1A3FB11A190E3C8700508E15 /* Device.m */,
@@ -272,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFC533F190E2692009D3815 /* main.m in Sources */,
-				1A3FB1AE190E431200508E15 /* KWTTDNavViewController.m in Sources */,
 				1A3FB1B7190E4EE000508E15 /* KWTTDAddViewController.m in Sources */,
 				1AFC5363190E26C0009D3815 /* KWTTDListViewController.m in Sources */,
 				1AFC5343190E2692009D3815 /* KWTTDAppDelegate.m in Sources */,

@@ -1,8 +1,8 @@
 //
 //  KWTTDAddViewController.h
-//  SmartHome
+//  Smarty
 //
-//  Created by Eric Zhao on 14-4-28.
+//  Created by Eric Zhao on 14-4-29.
 //  Copyright (c) 2014年 Eric Zhao. All rights reserved.
 //
 
@@ -15,5 +15,6 @@
 @property (strong, nonatomic) NSMutableArray *devices;
 
 - (IBAction)addDevice:(id)sender;
+- (IBAction)textFieldHide:(id)sender;
 
 @end

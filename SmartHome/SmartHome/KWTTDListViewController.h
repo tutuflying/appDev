@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KWTTDListViewController : UIViewController
+@interface KWTTDListViewController : UITableViewController
 
 @end

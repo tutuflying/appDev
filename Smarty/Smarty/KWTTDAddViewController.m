@@ -1,21 +1,19 @@
 //
-//  KWTTDNavViewController.m
-//  SmartHome
+//  KWTTDAddViewController.m
+//  Smarty
 //
-//  Created by Eric Zhao on 14-4-28.
+//  Created by Eric Zhao on 14-4-29.
 //  Copyright (c) 2014年 Eric Zhao. All rights reserved.
 //
 
-#import "KWTTDNavViewController.h"
 #import "KWTTDAddViewController.h"
+#import "Device.h"
 
-@interface KWTTDNavViewController ()
-
-@property (strong, nonatomic) KWTTDAddViewController *addDevice;
+@interface KWTTDAddViewController ()
 
 @end
 
-@implementation KWTTDNavViewController
+@implementation KWTTDAddViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,20 +28,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    UIBarButtonItem *addItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(showAddDevice:)];
-    self.add.rightBarButtonItem = addItem;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)showAddDevice:(id)sender {
-    self.addDevice = [self.storyboard instantiateViewControllerWithIdentifier:@"Add"];
-    [self.view insertSubview:self.addDevice.view atIndex:0];
 }
 
 /*
@@ -56,5 +46,18 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)addDevice:(id)sender {
+    Device *device = (Device *)[NSEntityDescription
+                                insertNewObjectForEntityForName:@"Device"
+                                inManagedObjectContext:self.myDelegate.managedObjectContext];
+    [device setName:self.deviceName.text];
+    
+    [self.myDelegate saveContext];
+}
+
+- (IBAction)textFieldHide:(id)sender {
+    [sender resignFirstResponder];
+}
 
 @end

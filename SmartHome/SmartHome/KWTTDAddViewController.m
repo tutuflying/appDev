@@ -7,6 +7,7 @@
 //
 
 #import "KWTTDAddViewController.h"
+#import "Device.h"
 
 @interface KWTTDAddViewController ()
 
@@ -45,5 +46,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)addDevice:(id)sender {
+    Device *device = (Device *)[NSEntityDescription
+                                insertNewObjectForEntityForName:@"Device"
+                                inManagedObjectContext:self.myDelegate.]
+}
 
 @end

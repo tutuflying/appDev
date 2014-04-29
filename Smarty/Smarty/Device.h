@@ -1,8 +1,8 @@
 //
 //  Device.h
-//  SmartHome
+//  Smarty
 //
-//  Created by Eric Zhao on 14-4-28.
+//  Created by Eric Zhao on 14-4-29.
 //  Copyright (c) 2014年 Eric Zhao. All rights reserved.
 //
 
@@ -13,8 +13,5 @@
 @interface Device : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
-@property (nonatomic, retain) NSString * comment;
-@property (nonatomic, retain) NSString * macId;
-@property (nonatomic, retain) NSString * imagePath;
 
 @end
