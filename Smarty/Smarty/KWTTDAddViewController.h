@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KWTTDAppDelegate.h"
+#import "Device.h"
 
 @interface KWTTDAddViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *deviceName;
-@property (strong, nonatomic) NSMutableArray *devices;
 
 - (IBAction)addDevice:(id)sender;
 - (IBAction)textFieldHide:(id)sender;

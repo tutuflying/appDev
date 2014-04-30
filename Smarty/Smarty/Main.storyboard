@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HPl-hg-7KK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HPl-hg-7KK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -21,7 +21,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="kO8-Bk-SqI" kind="push" id="coY-Eo-iNa"/>
+                                    <segue destination="kO8-Bk-SqI" kind="push" identifier="detail" id="coY-Eo-iNa"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="548" y="-310"/>
         </scene>
-        <!--View Controller-->
+        <!--Device View Controller-->
         <scene sceneID="OfL-8W-2CT">
             <objects>
-                <viewController id="kO8-Bk-SqI" sceneMemberID="viewController">
+                <viewController id="kO8-Bk-SqI" customClass="KWTTDDeviceViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sg9-Tl-7Re"/>
                         <viewControllerLayoutGuide type="bottom" id="73O-yn-ukB"/>
@@ -96,9 +96,21 @@
                     <view key="view" contentMode="scaleToFill" id="puJ-8e-d5w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyo-o1-yD5">
+                                <rect key="frame" x="20" y="253" width="280" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="A75-CW-c7I"/>
+                    <connections>
+                        <outlet property="macId" destination="Uyo-o1-yD5" id="KUZ-c0-HZa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3D-Kg-tDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

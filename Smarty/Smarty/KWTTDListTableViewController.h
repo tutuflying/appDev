@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KWTTDAppDelegate.h"
+#import "Device.h"
 
 @interface KWTTDListTableViewController : UITableViewController
 

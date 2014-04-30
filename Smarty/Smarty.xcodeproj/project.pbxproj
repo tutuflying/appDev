@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2D8F9719109CA70061EC77 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D8F9619109CA60061EC77 /* Device.m */; };
+		1A2D8F9A1910D4D40061EC77 /* KWTTDDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D8F991910D4D40061EC77 /* KWTTDDeviceViewController.m */; };
 		1A793259190FF46400DFE9AA /* KWTTDListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A793258190FF46400DFE9AA /* KWTTDListTableViewController.m */; };
 		1AFD5612190FA6D7000ECBB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFD5611190FA6D7000ECBB1 /* Foundation.framework */; };
 		1AFD5614190FA6D7000ECBB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFD5613190FA6D7000ECBB1 /* CoreGraphics.framework */; };
@@ -24,7 +26,6 @@
 		1AFD563B190FA6D7000ECBB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AFD5639190FA6D7000ECBB1 /* InfoPlist.strings */; };
 		1AFD563D190FA6D7000ECBB1 /* SmartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD563C190FA6D7000ECBB1 /* SmartyTests.m */; };
 		1AFD5647190FA6F0000ECBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFD5646190FA6F0000ECBB1 /* Main.storyboard */; };
-		1AFD564A190FA797000ECBB1 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD5649190FA797000ECBB1 /* Device.m */; };
 		1AFD564D190FA7C4000ECBB1 /* KWTTDAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD564C190FA7C4000ECBB1 /* KWTTDAddViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2D8F9519109CA60061EC77 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		1A2D8F9619109CA60061EC77 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		1A2D8F981910D4D40061EC77 /* KWTTDDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTTDDeviceViewController.h; sourceTree = "<group>"; };
+		1A2D8F991910D4D40061EC77 /* KWTTDDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTTDDeviceViewController.m; sourceTree = "<group>"; };
 		1A793257190FF46400DFE9AA /* KWTTDListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTTDListTableViewController.h; sourceTree = "<group>"; };
 		1A793258190FF46400DFE9AA /* KWTTDListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTTDListTableViewController.m; sourceTree = "<group>"; };
 		1AFD560E190FA6D7000ECBB1 /* Smarty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smarty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,8 +65,6 @@
 		1AFD563A190FA6D7000ECBB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AFD563C190FA6D7000ECBB1 /* SmartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartyTests.m; sourceTree = "<group>"; };
 		1AFD5646190FA6F0000ECBB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		1AFD5648190FA797000ECBB1 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
-		1AFD5649190FA797000ECBB1 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		1AFD564B190FA7C4000ECBB1 /* KWTTDAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTTDAddViewController.h; sourceTree = "<group>"; };
 		1AFD564C190FA7C4000ECBB1 /* KWTTDAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTTDAddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,10 +136,12 @@
 				1AFD5646190FA6F0000ECBB1 /* Main.storyboard */,
 				1A793257190FF46400DFE9AA /* KWTTDListTableViewController.h */,
 				1A793258190FF46400DFE9AA /* KWTTDListTableViewController.m */,
+				1A2D8F981910D4D40061EC77 /* KWTTDDeviceViewController.h */,
+				1A2D8F991910D4D40061EC77 /* KWTTDDeviceViewController.m */,
 				1AFD5628190FA6D7000ECBB1 /* Images.xcassets */,
+				1A2D8F9519109CA60061EC77 /* Device.h */,
+				1A2D8F9619109CA60061EC77 /* Device.m */,
 				1AFD5625190FA6D7000ECBB1 /* Smarty.xcdatamodeld */,
-				1AFD5648190FA797000ECBB1 /* Device.h */,
-				1AFD5649190FA797000ECBB1 /* Device.m */,
 				1AFD561A190FA6D7000ECBB1 /* Supporting Files */,
 			);
 			path = Smarty;
@@ -271,9 +276,10 @@
 				1AFD5620190FA6D7000ECBB1 /* main.m in Sources */,
 				1AFD5627190FA6D7000ECBB1 /* Smarty.xcdatamodeld in Sources */,
 				1A793259190FF46400DFE9AA /* KWTTDListTableViewController.m in Sources */,
+				1A2D8F9A1910D4D40061EC77 /* KWTTDDeviceViewController.m in Sources */,
+				1A2D8F9719109CA70061EC77 /* Device.m in Sources */,
 				1AFD564D190FA7C4000ECBB1 /* KWTTDAddViewController.m in Sources */,
 				1AFD5624190FA6D7000ECBB1 /* KWTTDAppDelegate.m in Sources */,
-				1AFD564A190FA797000ECBB1 /* Device.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

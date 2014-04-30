@@ -7,6 +7,7 @@
 //
 
 #import "KWTTDListTableViewController.h"
+#import "KWTTDDeviceViewController.h"
 
 @interface KWTTDListTableViewController ()
 
@@ -118,23 +119,18 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    if ([segue.identifier  isEqualToString: @"detail"]) {
+        KWTTDDeviceViewController *detail = segue.destinationViewController;
+        NSInteger selectedRow = [self.tableView indexPathForSelectedRow].row;
+        detail.item = [self getDevices][selectedRow];
+    }
 }
 
 
 
 - (NSArray*)getDevices {
-    KWTTDAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-    NSManagedObjectContext *context = [appDelegate managedObjectContext];
-    NSFetchRequest *request = [[NSFetchRequest alloc]
-                               initWithEntityName:@"Device"];
-    NSError *error;
-    NSArray *objects = [context executeFetchRequest:request error:&error];
-    if (objects == nil) {
-        NSLog(@"There was an error!");
-        // Do whatever error handling is appropriate
-    }
-    
-    return objects;
+    return [Device getDevices];
 }
 
 -(void) viewWillAppear:(BOOL)animated {

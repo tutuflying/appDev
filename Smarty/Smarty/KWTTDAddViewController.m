@@ -49,18 +49,22 @@
 
 - (IBAction)addDevice:(id)sender {
     
-    KWTTDAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    if ([Device checkDeviceExistByMacId:@"test3"]) {
+
+    } else {
+        KWTTDAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        NSManagedObjectContext *context = [appDelegate managedObjectContext];
+        
+        Device *device = (Device *)[NSEntityDescription
+                                    insertNewObjectForEntityForName:@"Device"
+                                    inManagedObjectContext:context];
+        
+        NSNumber *userId = [NSNumber numberWithInt:12345];
+        [device addDeviceName:@"test3" MacId:@"test3" Comment:@"test" ImgPath:@"test" UserId:userId];
+    }
     
-    Device *device = (Device *)[NSEntityDescription
-                                insertNewObjectForEntityForName:@"Device"
-                                inManagedObjectContext:context];
-    
-    [device setName:self.deviceName.text];
-    
-    [appDelegate saveContext];
-    
-    [self.navigationController popToRootViewControllerAnimated:YES]; 
+    [self.navigationController popToRootViewControllerAnimated:YES];
+
 }
 
 - (IBAction)textFieldHide:(id)sender {
