@@ -71,4 +71,42 @@
     [sender resignFirstResponder];
 }
 
+-(void) viewWillAppear:(BOOL)animated {
+//    ZBarReaderViewController *reader = [ZBarReaderViewController new];
+//    reader.readerDelegate = self;
+//    [reader.scanner setSymbology: ZBAR_QRCODE
+//                          config: ZBAR_CFG_ENABLE
+//                              to: 0];
+//    reader.readerView.zoom = 1.0;
+//    [self presentModalViewController: reader
+//                            animated: YES];
+    
+    ZBarReaderController * reader = [ZBarReaderController new];
+    ZBarImageScanner * scanner = reader.scanner;
+    reader.readerDelegate = self;
+    [scanner setSymbology:ZBAR_I25 config:ZBAR_CFG_ENABLE to:0];
+    
+    reader.showsZBarControls = YES;
+    
+    [self presentViewController:reader animated:YES completion:nil];
+}
+
+- (void) imagePickerController: (UIImagePickerController*) picker
+ didFinishPickingMediaWithInfo: (NSDictionary*) info
+{
+    id<NSFastEnumeration> results = [info objectForKey:ZBarReaderControllerResults];
+    ZBarSymbol * symbol;
+    for(symbol in results)
+        break;
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    self.macId.text = symbol.data;
+}
+
+//取消按钮方法
+- (void) imagePickerControllerDidCancel:(UIImagePickerController*)picker {
+    NSLog(@"test");
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 @end

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AABB85D19233071007C2741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AABB85C19233071007C2741 /* Foundation.framework */; };
+		1AABB85F19233071007C2741 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AABB85E19233071007C2741 /* CoreGraphics.framework */; };
+		1AABB86119233071007C2741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AABB86019233071007C2741 /* UIKit.framework */; };
+		1AABB86719233071007C2741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AABB86519233071007C2741 /* InfoPlist.strings */; };
+		1AABB86919233071007C2741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABB86819233071007C2741 /* main.m */; };
+		1AABB86D19233071007C2741 /* KWTTDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABB86C19233071007C2741 /* KWTTDAppDelegate.m */; };
+		1AABB87019233071007C2741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AABB86E19233071007C2741 /* Main.storyboard */; };
+		1AABB87319233071007C2741 /* KWTTDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABB87219233071007C2741 /* KWTTDViewController.m */; };
+		1AABB87519233071007C2741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AABB87419233071007C2741 /* Images.xcassets */; };
+		1AABB87C19233071007C2741 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AABB87B19233071007C2741 /* XCTest.framework */; };
+		1AABB87D19233071007C2741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AABB85C19233071007C2741 /* Foundation.framework */; };
+		1AABB87E19233071007C2741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AABB86019233071007C2741 /* UIKit.framework */; };
+		1AABB88619233071007C2741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AABB88419233071007C2741 /* InfoPlist.strings */; };
+		1AABB88819233071007C2741 /* Peripheral_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABB88719233071007C2741 /* Peripheral_ManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AABB87F19233071007C2741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AABB85119233071007C2741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AABB85819233071007C2741;
+			remoteInfo = "Peripheral Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AABB85919233071007C2741 /* Peripheral Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peripheral Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AABB85C19233071007C2741 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AABB85E19233071007C2741 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AABB86019233071007C2741 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AABB86419233071007C2741 /* Peripheral Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peripheral Manager-Info.plist"; sourceTree = "<group>"; };
+		1AABB86619233071007C2741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AABB86819233071007C2741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AABB86A19233071007C2741 /* Peripheral Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peripheral Manager-Prefix.pch"; sourceTree = "<group>"; };
+		1AABB86B19233071007C2741 /* KWTTDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWTTDAppDelegate.h; sourceTree = "<group>"; };
+		1AABB86C19233071007C2741 /* KWTTDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWTTDAppDelegate.m; sourceTree = "<group>"; };
+		1AABB86F19233071007C2741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AABB87119233071007C2741 /* KWTTDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWTTDViewController.h; sourceTree = "<group>"; };
+		1AABB87219233071007C2741 /* KWTTDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWTTDViewController.m; sourceTree = "<group>"; };
+		1AABB87419233071007C2741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AABB87A19233071007C2741 /* Peripheral ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peripheral ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AABB87B19233071007C2741 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1AABB88319233071007C2741 /* Peripheral ManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peripheral ManagerTests-Info.plist"; sourceTree = "<group>"; };
+		1AABB88519233071007C2741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AABB88719233071007C2741 /* Peripheral_ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peripheral_ManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AABB85619233071007C2741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABB85F19233071007C2741 /* CoreGraphics.framework in Frameworks */,
+				1AABB86119233071007C2741 /* UIKit.framework in Frameworks */,
+				1AABB85D19233071007C2741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AABB87719233071007C2741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABB87C19233071007C2741 /* XCTest.framework in Frameworks */,
+				1AABB87E19233071007C2741 /* UIKit.framework in Frameworks */,
+				1AABB87D19233071007C2741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AABB85019233071007C2741 = {
+			isa = PBXGroup;
+			children = (
+				1AABB86219233071007C2741 /* Peripheral Manager */,
+				1AABB88119233071007C2741 /* Peripheral ManagerTests */,
+				1AABB85B19233071007C2741 /* Frameworks */,
+				1AABB85A19233071007C2741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AABB85A19233071007C2741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AABB85919233071007C2741 /* Peripheral Manager.app */,
+				1AABB87A19233071007C2741 /* Peripheral ManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AABB85B19233071007C2741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AABB85C19233071007C2741 /* Foundation.framework */,
+				1AABB85E19233071007C2741 /* CoreGraphics.framework */,
+				1AABB86019233071007C2741 /* UIKit.framework */,
+				1AABB87B19233071007C2741 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AABB86219233071007C2741 /* Peripheral Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1AABB86B19233071007C2741 /* KWTTDAppDelegate.h */,
+				1AABB86C19233071007C2741 /* KWTTDAppDelegate.m */,
+				1AABB86E19233071007C2741 /* Main.storyboard */,
+				1AABB87119233071007C2741 /* KWTTDViewController.h */,
+				1AABB87219233071007C2741 /* KWTTDViewController.m */,
+				1AABB87419233071007C2741 /* Images.xcassets */,
+				1AABB86319233071007C2741 /* Supporting Files */,
+			);
+			path = "Peripheral Manager";
+			sourceTree = "<group>";
+		};
+		1AABB86319233071007C2741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AABB86419233071007C2741 /* Peripheral Manager-Info.plist */,
+				1AABB86519233071007C2741 /* InfoPlist.strings */,
+				1AABB86819233071007C2741 /* main.m */,
+				1AABB86A19233071007C2741 /* Peripheral Manager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AABB88119233071007C2741 /* Peripheral ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AABB88719233071007C2741 /* Peripheral_ManagerTests.m */,
+				1AABB88219233071007C2741 /* Supporting Files */,
+			);
+			path = "Peripheral ManagerTests";
+			sourceTree = "<group>";
+		};
+		1AABB88219233071007C2741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AABB88319233071007C2741 /* Peripheral ManagerTests-Info.plist */,
+				1AABB88419233071007C2741 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AABB85819233071007C2741 /* Peripheral Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AABB88B19233071007C2741 /* Build configuration list for PBXNativeTarget "Peripheral Manager" */;
+			buildPhases = (
+				1AABB85519233071007C2741 /* Sources */,
+				1AABB85619233071007C2741 /* Frameworks */,
+				1AABB85719233071007C2741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Peripheral Manager";
+			productName = "Peripheral Manager";
+			productReference = 1AABB85919233071007C2741 /* Peripheral Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AABB87919233071007C2741 /* Peripheral ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AABB88E19233071007C2741 /* Build configuration list for PBXNativeTarget "Peripheral ManagerTests" */;
+			buildPhases = (
+				1AABB87619233071007C2741 /* Sources */,
+				1AABB87719233071007C2741 /* Frameworks */,
+				1AABB87819233071007C2741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AABB88019233071007C2741 /* PBXTargetDependency */,
+			);
+			name = "Peripheral ManagerTests";
+			productName = "Peripheral ManagerTests";
+			productReference = 1AABB87A19233071007C2741 /* Peripheral ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AABB85119233071007C2741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KWTTD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Eric Zhao";
+				TargetAttributes = {
+					1AABB87919233071007C2741 = {
+						TestTargetID = 1AABB85819233071007C2741;
+					};
+				};
+			};
+			buildConfigurationList = 1AABB85419233071007C2741 /* Build configuration list for PBXProject "Peripheral Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AABB85019233071007C2741;
+			productRefGroup = 1AABB85A19233071007C2741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AABB85819233071007C2741 /* Peripheral Manager */,
+				1AABB87919233071007C2741 /* Peripheral ManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AABB85719233071007C2741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABB87519233071007C2741 /* Images.xcassets in Resources */,
+				1AABB86719233071007C2741 /* InfoPlist.strings in Resources */,
+				1AABB87019233071007C2741 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AABB87819233071007C2741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABB88619233071007C2741 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AABB85519233071007C2741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABB87319233071007C2741 /* KWTTDViewController.m in Sources */,
+				1AABB86919233071007C2741 /* main.m in Sources */,
+				1AABB86D19233071007C2741 /* KWTTDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AABB87619233071007C2741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABB88819233071007C2741 /* Peripheral_ManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AABB88019233071007C2741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AABB85819233071007C2741 /* Peripheral Manager */;
+			targetProxy = 1AABB87F19233071007C2741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AABB86519233071007C2741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AABB86619233071007C2741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AABB86E19233071007C2741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AABB86F19233071007C2741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AABB88419233071007C2741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AABB88519233071007C2741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AABB88919233071007C2741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AABB88A19233071007C2741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AABB88C19233071007C2741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peripheral Manager/Peripheral Manager-Prefix.pch";
+				INFOPLIST_FILE = "Peripheral Manager/Peripheral Manager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AABB88D19233071007C2741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peripheral Manager/Peripheral Manager-Prefix.pch";
+				INFOPLIST_FILE = "Peripheral Manager/Peripheral Manager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AABB88F19233071007C2741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peripheral Manager.app/Peripheral Manager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peripheral Manager/Peripheral Manager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Peripheral ManagerTests/Peripheral ManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1AABB89019233071007C2741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peripheral Manager.app/Peripheral Manager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peripheral Manager/Peripheral Manager-Prefix.pch";
+				INFOPLIST_FILE = "Peripheral ManagerTests/Peripheral ManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AABB85419233071007C2741 /* Build configuration list for PBXProject "Peripheral Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AABB88919233071007C2741 /* Debug */,
+				1AABB88A19233071007C2741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AABB88B19233071007C2741 /* Build configuration list for PBXNativeTarget "Peripheral Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AABB88C19233071007C2741 /* Debug */,
+				1AABB88D19233071007C2741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AABB88E19233071007C2741 /* Build configuration list for PBXNativeTarget "Peripheral ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AABB88F19233071007C2741 /* Debug */,
+				1AABB89019233071007C2741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AABB85119233071007C2741 /* Project object */;
+}

@@ -73,12 +73,20 @@
                                     <action selector="textFieldHide:" destination="lXC-AH-XdM" eventType="editingDidEndOnExit" id="bhi-pw-Atg"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sd-7o-dRB">
+                                <rect key="frame" x="20" y="136" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gzi-Iy-qbt"/>
                     <connections>
                         <outlet property="deviceName" destination="zgT-nx-CyS" id="Hkg-P5-cjL"/>
+                        <outlet property="macId" destination="4Sd-7o-dRB" id="TJy-ff-581"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jLT-Jg-9Ye" userLabel="First Responder" sceneMemberID="firstResponder"/>
